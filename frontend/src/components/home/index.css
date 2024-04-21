@@ -1,0 +1,146 @@
+.home-container{
+    background-color:purple;
+    min-height:100vh;
+    padding-bottom: 60px;;
+}
+
+.nav-container{
+    padding:40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color:purple;
+    border-bottom:2px solid white;
+    height:0px;
+    margin-bottom:44px;
+}
+
+.title{
+    color:white;
+    font-size:30px;
+    font-weight:600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav-items-container{
+    display:flex;
+    align-items:center;
+}
+
+.nav-li{
+    list-style-type: none;
+    color:white;
+    margin-left:20px;
+    font-weight:bold;
+    font-size:20px;
+}
+
+.nav-li:hover{
+    text-decoration: underline;
+}
+
+.nav-link{
+    text-decoration: none;
+    margin-left:20px;
+}
+
+.logout-btn{
+    width: 120px;
+    height:30px;
+    background-color:white;
+    border:none;
+    border-radius:4px;
+    color:purple;
+    font-size:16px;
+    font-weight:600;
+    cursor: pointer;
+}
+
+.task-input-container{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.task-label{
+    color:white;
+    font-size:20px;
+    font-weight:500;
+    font-family: sans-serif;
+    margin-bottom:10px;
+}
+
+.task-input{
+    width:400px;
+    color:purple;
+    font-size:20px;
+    border:none;
+    border-radius:5px;
+    height:30px;
+    margin-bottom:20px;
+}
+
+.description-input{
+    width:400px;
+    color:purple;
+    font-size:20px;
+    border:none;
+    border-radius:5px;
+    height:30px;
+    margin-bottom:20px;
+}
+
+.input-container{
+    display:flex;
+    flex-direction:column;
+}
+
+.task-btn{
+    width: 400px;
+    height:30px;
+    background-color:white;
+    border:none;
+    border-radius:4px;
+    color:purple;
+    font-size:16px;
+    font-weight:600;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.tasks-container{
+    width:80%;
+    margin-left:10%;
+    border:2px solid white;
+    min-height:300px;
+    padding-bottom:60px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top:30px;
+}
+
+.ul-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top:30px;
+}
+
+.no-tasks-container{
+    width:100%;
+    height: 400px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.no-task{
+    color:white;
+    font-size:50px;
+    font-weight:600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
