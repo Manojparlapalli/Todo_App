@@ -43,7 +43,7 @@ const Register = () => {
     return(
         <div className="login-container">
             <form className="cart" onSubmit={onSubmitSignupForm}>
-                <label htmlFor="username" className="label">Email:</label>
+                <label htmlFor="username" className="label">Username:</label>
                 <input
                     className="input"
                     type="username"
